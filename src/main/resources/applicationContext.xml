@@ -12,4 +12,5 @@
         <property name="printedLoggerLevel" value="FINE" />
     </bean>   
     <bean id="myCoach" class="br.com.springdemoone.BaseballCoach"></bean>
+    <bean id="newCoach" class="br.com.springdemoone.activity.Swimming"></bean>
 </beans>

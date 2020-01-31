@@ -11,7 +11,6 @@ public class HelloSpringApp {
 		
 		// Segundo, recupero o bean do spring container
 		Coach coach = context.getBean("myCoach", Coach.class);
-		
 		// Terceiro, chamar o método bean
 		System.out.println(coach.getDailyWorkout());
 		
